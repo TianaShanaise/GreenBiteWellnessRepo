@@ -1,0 +1,46 @@
+.div1 {
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    width: 100% ;
+    height: 65px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: green;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+    height: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hero-content {
+    font-size: 30px;
+    color: black;
+}
+
