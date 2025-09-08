@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;   /* so that once the hyperlinked content is clicked, it will scroll down smoothly */
+}
+
+
 .div1 {
     background-color: rgb(20, 19, 19);
     display: flex;
@@ -44,3 +49,61 @@
     color: black;
 }
 
+.h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(29, 29, 29);
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;  /* 1fr will divide the space equally between the two div boxes */
+}
+
+.grid-box {
+    background-color:beige;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+
+#newsletter {
+    padding-left: 50px;
+}
+
+
+#newsletter button {
+    font-size: 15px;
+}
+
+
+.newsletter-heading {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+.topic {
+    font-size: 40px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.paragraph {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.offerings {
+    font-size: 20px;
+}
